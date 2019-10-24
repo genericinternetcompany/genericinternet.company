@@ -5,8 +5,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0-buster AS build
 WORKDIR /src
-COPY genericinternet.company/genericinternet.company.csproj genericinternet.company/
-RUN dotnet restore "genericinternet.company/genericinternet.company.csproj"
+COPY genericinternet.company.csproj genericinternet.company/
+RUN dotnet restore "genericinternet.company.csproj"
 
 # Setup NodeJs
 RUN apt-get update && \
