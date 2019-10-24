@@ -10,7 +10,6 @@
 
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
-    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
     <UserSecretsId>7f2d062e-0602-46a2-a22b-31e858ca47f4</UserSecretsId>
   </PropertyGroup>
 
@@ -26,9 +25,6 @@
     <None Remove="buildspec %28copy%29.yml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Include="buildspec.yml" />
-  </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
