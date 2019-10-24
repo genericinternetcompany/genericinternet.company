@@ -17,7 +17,7 @@ RUN apt-get update && \
 
 # Copy everything else and build
 COPY . .
-WORKDIR "/src/genericinternet.company"
+WORKDIR "/src/"
 RUN dotnet build "genericinternet.company.csproj" -c Release -o /app/build
 
 FROM build AS publish
