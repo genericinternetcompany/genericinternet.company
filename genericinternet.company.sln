@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "genericinternet.company", "genericinternet.company\genericinternet.company.csproj", "{FC0A97D0-5653-4BE0-9B02-9548145D4AF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "genericinternet.company", "genericinternet.company.csproj", "{FC0A97D0-5653-4BE0-9B02-9548145D4AF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B012FB3-5A63-4F9A-9F7F-077655EAA4A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +15,9 @@ Global
 		{FC0A97D0-5653-4BE0-9B02-9548145D4AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0A97D0-5653-4BE0-9B02-9548145D4AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0A97D0-5653-4BE0-9B02-9548145D4AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45408CD-BD53-4C29-8967-ED639BF9B805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45408CD-BD53-4C29-8967-ED639BF9B805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45408CD-BD53-4C29-8967-ED639BF9B805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45408CD-BD53-4C29-8967-ED639BF9B805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
