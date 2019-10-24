@@ -1,5 +1,10 @@
 ﻿version: 0.2
 
+env:
+  variables:
+    IMAGE_REPO_NAME: "genericinternet.company"
+    IMAGE_TAG: "latest"
+
 phases:
   install:
     runtime-versions:
