@@ -1,0 +1,7 @@
+# genericinternet.company
+
+Generic Internet Conpanies Flagship WebSite. 
+
+For Demo Purposed of pipelines
+
+![build status](https://codebuild.us-east-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoibkNHTnNFekNrSFZsMCtnRjJiOGdoNXJVVmV2RXRhZ2R1Z3lYVXBlV2c4bVZKRWlzcVozWUdIRTlJRkxRclp3Y0hoRTVMQ2FQUmE1eUlJbVA1TVJvemhrPSIsIml2UGFyYW1ldGVyU3BlYyI6InltYlRDLzdKWTBkR2ZVUlgiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
