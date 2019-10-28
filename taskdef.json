@@ -1,3 +1,4 @@
+[
 {
   "ipcMode": null,
   "executionRoleArn": null,
@@ -96,3 +97,4 @@
   "proxyConfiguration": null,
   "volumes": []
 }
+]
